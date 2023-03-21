@@ -2,6 +2,9 @@
 // @name                Duolingo helper
 // @namespace           Violentmonkey Scripts
 // @homepageURL         https://github.com/alexlogvin/browser-userscripts/blob/main/duolingo-helper.js
+// @installURL          https://raw.githubusercontent.com/alexlogvin/browser-userscripts/main/duolingo-helper.js
+// @downloadURL         https://raw.githubusercontent.com/alexlogvin/browser-userscripts/main/duolingo-helper.js
+// @updateURL           https://raw.githubusercontent.com/alexlogvin/browser-userscripts/main/duolingo-helper.js
 // @supportURL          https://github.com/alexlogvin/browser-userscripts/issues
 // @contributionURL     https://paypal.me/AlexLogvin
 // @contributionAmount  $1.00
@@ -453,4 +456,3 @@ async function solveChallenge() {
 }
 
 (solveChallenge)();
-1
