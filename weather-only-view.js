@@ -2,8 +2,8 @@
 // @name                Weather only view
 // @namespace           Violentmonkey Scripts
 // @homepageURL         https://github.com/alexlogvin/browser-userscripts/blob/main/weather-only-view.js
-// @downloadURL         https://github.com/alexlogvin/browser-userscripts/blob/main/weather-only-view.js
-// @updateURL           https://github.com/alexlogvin/browser-userscripts/blob/main/weather-only-view.js
+// @downloadURL         https://raw.githubusercontent.com/alexlogvin/browser-userscripts/main/weather-only-view.js
+// @updateURL           https://raw.githubusercontent.com/alexlogvin/browser-userscripts/main/weather-only-view.js
 // @supportURL          https://github.com/alexlogvin/browser-userscripts/issues
 // @contributionURL     https://paypal.me/AlexLogvin
 // @contributionAmount  $1.00
