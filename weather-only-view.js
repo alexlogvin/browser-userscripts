@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Weather only view
 // @namespace       Violentmonkey Scripts
-// @homepageURL     https://github.com/alexlogvin/browser-userscripts
+// @homepageURL     https://github.com/alexlogvin/browser-userscripts/weather-only-view.js
 // @supportURL      https://github.com/alexlogvin/browser-userscripts/issues
 // @contributionURL https://github.com/alexlogvin/browser-userscripts/pulls
 // @author          alexlogvin
