@@ -63,7 +63,13 @@ document.getElementsByTagName("footer").remove();
 document.getElementById('Wxu-MapCard-Module').parentElement.remove();
 document.getElementById('dpr-manager').remove();
 document.querySelector('[id^=Taboola]').remove();
-document.querySelector('[id^=WxuAd]').remove();
+document.querySelector('head').innerHTML += `
+<style>
+    [id^=WxuAd] {
+        display: none !important;
+    }
+</style>
+`
 
 document.getElementById('appWrapper').style.backgroundColor = 'none';
 document.getElementById('appWrapper').style.backgroundImage = 'none';
@@ -76,7 +82,6 @@ document.querySelectorAll('[class^=AirQuality--detailsButton]').remove();
 document.querySelectorAll('[href]').forEach((e) => e.removeAttribute("href"));
 
 document.querySelector('[id^=WxuCurrentConditions]').style.gridColumn = 'span 8';
-//document.querySelector('[id^=WxuCurrentConditions]').insertAfter()
 
 
 
