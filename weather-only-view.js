@@ -13,7 +13,7 @@
 // @license             MIT
 // @match               https://weather.com/*
 // @grant               none
-// @version             1.0
+// @version             1.1
 // @description         Modifies weather.com website to make it look more focused on needed data and can be used on presentational monitors
 // @icon                https://www.google.com/s2/favicons?sz=64&domain=weather.com
 // @run-at              document-end
@@ -62,6 +62,7 @@ document.getElementById('regionHeader').remove();
 document.getElementsByTagName("footer").remove();
 document.getElementById('Wxu-MapCard-Module').parentElement.remove();
 document.getElementById('dpr-manager').remove();
+document.querySelector('[id^=Taboola]').remove();
 
 document.getElementById('appWrapper').style.backgroundColor = 'none';
 document.getElementById('appWrapper').style.backgroundImage = 'none';
