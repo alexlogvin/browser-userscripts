@@ -2,6 +2,7 @@
 // @name                Weather only view
 // @namespace           Violentmonkey Scripts
 // @homepageURL         https://github.com/alexlogvin/browser-userscripts/blob/main/weather-only-view.js
+// @installURL          https://raw.githubusercontent.com/alexlogvin/browser-userscripts/main/weather-only-view.js
 // @downloadURL         https://raw.githubusercontent.com/alexlogvin/browser-userscripts/main/weather-only-view.js
 // @updateURL           https://raw.githubusercontent.com/alexlogvin/browser-userscripts/main/weather-only-view.js
 // @supportURL          https://github.com/alexlogvin/browser-userscripts/issues
@@ -26,8 +27,10 @@ const url = 'https://weather.com/uk-UA/weather/today/l/a737b8766e57e8b96a7df67ff
 //page refresh in milliseconds
 const reloadTimeout = 60 * 60 * 1000;
 
-//calendar language. "en" - for english
-const locale = 'uk';
+//calendar language
+const locale = navigator.language || navigator.userLanguage;
+//you can set any language by ISO-639-1, for example "en" - for english
+//locale = 'uk';
 
 
 
