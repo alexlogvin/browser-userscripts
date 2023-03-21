@@ -13,7 +13,7 @@
 // @license             MIT
 // @match               https://weather.com/*
 // @grant               none
-// @version             1.2
+// @version             1.3
 // @description         Modifies weather.com website to make it look more focused on needed data and can be used on presentational monitors
 // @icon                https://www.google.com/s2/favicons?sz=64&domain=weather.com
 // @run-at              document-end
