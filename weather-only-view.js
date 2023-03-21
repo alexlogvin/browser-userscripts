@@ -1,18 +1,21 @@
 // ==UserScript==
-// @name            Weather only view
-// @namespace       Violentmonkey Scripts
-// @homepageURL     https://github.com/alexlogvin/browser-userscripts/weather-only-view.js
-// @supportURL      https://github.com/alexlogvin/browser-userscripts/issues
-// @contributionURL https://github.com/alexlogvin/browser-userscripts/pulls
-// @author          alexlogvin
-// @copyright       alexlogvin
-// @license         MIT
-// @match           https://weather.com/*
-// @grant           none
-// @version         1.0
-// @description     Modifies weather.com website to make it look more focused on needed data and can be used on presentational monitors
-// @icon            https://www.google.com/s2/favicons?sz=64&domain=weather.com
-// @run-at          document-end
+// @name                Weather only view
+// @namespace           Violentmonkey Scripts
+// @homepageURL         https://github.com/alexlogvin/browser-userscripts/blob/main/weather-only-view.js
+// @downloadURL         https://github.com/alexlogvin/browser-userscripts/blob/main/weather-only-view.js
+// @updateURL           https://github.com/alexlogvin/browser-userscripts/blob/main/weather-only-view.js
+// @supportURL          https://github.com/alexlogvin/browser-userscripts/issues
+// @contributionURL     https://paypal.me/AlexLogvin
+// @contributionAmount  $1.00
+// @author              alexlogvin
+// @copyright           alexlogvin
+// @license             MIT
+// @match               https://weather.com/*
+// @grant               none
+// @version             1.0
+// @description         Modifies weather.com website to make it look more focused on needed data and can be used on presentational monitors
+// @icon                https://www.google.com/s2/favicons?sz=64&domain=weather.com
+// @run-at              document-end
 // ==/UserScript==
 
 
